@@ -11,7 +11,7 @@ class School
     roster[level] ||=[]
     roster[level] << student
   end 
-    def grade(level)
+    def sort
       
      
      
