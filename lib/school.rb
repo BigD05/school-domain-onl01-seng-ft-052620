@@ -14,12 +14,13 @@ class School
   
  
   def grade(level)
-    roster.detect do |x, y| 
+    roster.collect do |x, y| 
       if x == level
         return y 
       end 
     end 
   end 
+  
     def sort
       new_hash = {}
       roster.each do |x,y| 
